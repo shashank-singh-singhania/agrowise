@@ -317,7 +317,7 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center space-y-4">
                     <img
-                      src="/placeholder.svg?height=100&width=100"
+                      src="/rajesh.jpg?height=100&width=100"
                       alt="Farmer Rajesh"
                       className="rounded-full h-20 w-20 object-cover"
                     />
@@ -336,7 +336,7 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center space-y-4">
                     <img
-                      src="/placeholder.svg?height=100&width=100"
+                      src="/lakshmi.jpeg?height=100&width=100"
                       alt="Farmer Lakshmi"
                       className="rounded-full h-20 w-20 object-cover"
                     />
@@ -355,7 +355,7 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center space-y-4">
                     <img
-                      src="/placeholder.svg?height=100&width=100"
+                      src="/amit.jpg?height=100&width=100"
                       alt="Farmer Amit"
                       className="rounded-full h-20 w-20 object-cover"
                     />
