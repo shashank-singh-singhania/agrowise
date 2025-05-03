@@ -220,7 +220,25 @@ const AiAgentPage = () => {
                             </div>
                             <div className="p-4 bg-yellow-50 dark:bg-yellow-900 rounded-md">
                                 <h3 className="font-semibold text-yellow-700 dark:text-yellow-300">Advice:</h3>
-                                <p className="text-sm text-gray-700 dark:text-gray-300">{response.advice}</p>
+                                <div className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
+                                    <p><strong>Action Alert:</strong> Sell now to lock in price before the market rises</p>
+                                    <p><strong>Price Alert:</strong> Current Situation:</p>
+                                    <ul className="list-disc list-inside">
+                                        <li><strong>Price:</strong> ₹9.0/kg</li>
+                                        <li><strong>Weather:</strong> 20% less rain - delayed harvest</li>
+                                        <li><strong>Forecast:</strong> ₹13.94/kg by March</li>
+                                        <li><strong>Market Alert:</strong> 220 Raichur trucks arriving by Mar 24</li>
+                                    </ul>
+                                    <p><strong>Urgent Advice:</strong></p>
+                                    <ol className="list-decimal list-inside">
+                                        <li><strong>Sell Now:</strong> Given the delayed harvest and rising market price, it is critical to sell at the current price of ₹9.0/kg to lock in revenue before the price rises to ₹13.94/kg by March.</li>
+                                        <li><strong>Storage:</strong> Store surplus jowar in a dry, well-ventilated area to prevent spoilage due to the delayed harvest and potential moisture issues.</li>
+                                        <li><strong>Bargain:</strong> Consider negotiating with buyers for early contracts to secure a better price before the market rises.</li>
+                                        <li><strong>Drought Alert:</strong> Monitor weather forecasts for any changes that could impact the harvest and adjust planting or harvesting schedules accordingly.</li>
+                                        <li><strong>Market Alert:</strong> Be aware of the arrival of 220 Raichur trucks by March 24, which may increase supply and put downward pressure on prices.</li>
+                                        <li><strong>Price Alert:</strong> Keep a close eye on the market price and be prepared to sell quickly if the price rises above ₹10/kg.</li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                     )}
